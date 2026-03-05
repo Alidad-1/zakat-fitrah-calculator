@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #000000, #111111, #1a1a1a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 0rem 2rem 4rem 2rem;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 42px;
+  letter-spacing: 2px;
+  color: #ffd700;
+}
+
+.header p {
+  color: #fff176;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.moon {
+  font-size: 28px;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.table-header,
+.row {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 5px;
+}
+
+.table-header {
+  font-weight: 600;
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 25px;
+}
+
+.row input,
+input {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  color: #fff176;
+  background: #2a2a2a;
+  box-shadow: inset 3px 3px 6px rgba(0,0,0,0.4),
+              inset -3px -3px 6px rgba(255,255,255,0.05);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.row div{
+  width: 25%;
+  text-align: center;
+}
+
+.commodity {
+  font-weight: 500;
+  color: #d4d4d4;
+}
+
+.amount {
+  font-weight: 600;
+  color: #ffd700;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin: 25px 0;
+}
+
+.total {
+  text-align:right;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffd700;
+}
+
+.total span {   
+  color: #fff176;
+}
+
+.Raw{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.full_zakat_card{
+  background: #1a1a1a;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+#P{
+  font-weight: 600;
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+#BTN{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#BTN button{
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  color: #1a1a1a;
+  background: #ffd700;
+  transition: 0.3s ease;
+}
+
+#BTN button:hover{
+  background: #fff176;
+}
+
+.show_Due_zakat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffd700;
+  font-weight: 600;   
+}

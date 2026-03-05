@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitrah 2026</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper" id="main_rapper">
+
+        <div class="header">
+            <div class="moon">🌙</div>
+            <h1>FITRAH 2026</h1>
+            <p>Ramadan 1447</p>
+        </div>
+
+        <div class="card">
+
+            <div class="table-header">
+                <div>Commodity</div>
+                <div>Per Person (PKR)</div>
+                <div>Persons</div>
+                <div>Amount (PKR)</div>
+            </div>
+
+            <!-- Row -->
+            <div class="row">
+                <div class="commodity">🌾 گندم (Wheat)</div>
+                <div><input type="number" value="300" id="Price1" class="Price"></div>
+                <div><input type="number" value="0" id="Person1" class="Person"></div>
+                <div class="amount" id="amount1">0 PKR</div>
+            </div>
+
+            <div class="row">
+                <div class="commodity">🌿 جو (Barley)</div>
+                <div><input type="number" value="1100" id="Price2" class="Price"></div>
+                <div><input type="number" value="0" id="Person2" class="Person"></div>
+                <div class="amount" id="amount2">0 PKR</div>
+            </div>
+
+            <div class="row">
+                <div class="commodity">🍎 کھجور (Dates)</div>
+                <div><input type="number" value="2600" id="Price3" class="Price"></div>
+                <div><input type="number" value="0" id="Person3" class="Person"></div>
+                <div class="amount" id="amount3">0 PKR</div>
+            </div>
+
+            <div class="row">
+                <div class="commodity">🌴 عجوۃ (Ajwa)</div>
+                <div><input type="number" value="19200" id="Price4" class="Price"></div>
+                <div><input type="number" value="0" id="Person4" class="Person"></div>
+                <div class="amount" id="amount4">0 PKR</div>
+            </div>
+
+            <div class="row">
+                <div class="commodity">🍇 کشمش (Raisin)</div>
+                <div><input type="number" value="7200" id="Price5" class="Price"></div>
+                <div><input type="number" value="0" id="Person5" class="Person"></div>
+                <div class="amount" id="amount5">0 PKR</div>
+            </div>
+
+            <hr>
+
+            <div class="total">
+                Total Amount: <span id="span">0 PKR</span>
+            </div>
+
+        </div>
+    </div>
+    <!-- zakat calculator -->
+    <div class="container" id="container">
+        <div class="header">
+            <h1>Zakat 2026</h1>
+            <p>Ramadan 1447</p>
+        </div>
+        <div class="full_zakat_card">
+        <div class="Raw">
+            <div class="Gold_row">
+                <div class="Gold_Value" id="P">Gold Value</div>
+                <div><input type="number" placeholder="0" id="Gold_Value" class="Gold_Value"></div>
+            </div>
+            <div class="Cash_row">
+                <div class="Cash_Value" id="P">Cash Value</div>
+                <div><input type="number" placeholder="0" id="Cash" class="Cash"></div>
+            </div>
+            <div class="Liability">
+                <div class="Liability_Value" id="P">Liability</div>
+                <div><input type="number" placeholder="0" id="Liability" class="Liability"></div>
+            </div>
+        </div>
+       <div id="BTN">
+        <button id="calculate">Check Due Zakat</button>
+        </div>
+<div class="show_Due_zakat" id="show_Due_zakat">    
+
+</div>
+    </div>
+    </div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
